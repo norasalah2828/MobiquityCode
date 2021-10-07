@@ -1,0 +1,1169 @@
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users?username=Delphine
+Proxy:			<none>
+Request params:	<none>
+Query params:	username=Delphine
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 07 Oct 2021 19:18:28 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1633611605
+vary: Origin, Accept-Encoding
+access-control-allow-credentials: true
+cache-control: max-age=43200
+pragma: no-cache
+expires: -1
+x-content-type-options: nosniff
+etag: W/"23d-EKDCRFg7oh6G4KjjoWlynBpL2AY"
+via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 22753
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Lv39nS%2Fg2tCag3wZ6uwzMxSkTWI0YyYO%2BmW2WHL4NXMXOF7Akz4PSQ%2F5AWIuy0qGx0qlcbD8ebciDc3b6f4wNwUsYnlVVJWPbab6Kd4aqfwUUAL9gKIYe1mbQh2fm2K0LxrpEIVYyGMTjTFC4qzc"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 69a979ba0f9dee7d-CDG
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+
+[
+    {
+        "id": 9,
+        "name": "Glenna Reichert",
+        "username": "Delphine",
+        "email": "Chaim_McDermott@dana.io",
+        "address": {
+            "street": "Dayna Park",
+            "suite": "Suite 449",
+            "city": "Bartholomebury",
+            "zipcode": "76495-3109",
+            "geo": {
+                "lat": "24.6463",
+                "lng": "-168.8889"
+            }
+        },
+        "phone": "(775)976-6794 x41206",
+        "website": "conrad.com",
+        "company": {
+            "name": "Yost and Sons",
+            "catchPhrase": "Switchable contextually-based project",
+            "bs": "aggregate real-time technologies"
+        }
+    }
+]
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts?userId=9
+Proxy:			<none>
+Request params:	<none>
+Query params:	userId=9
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 07 Oct 2021 19:18:28 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 996
+x-ratelimit-reset: 1633611845
+vary: Origin, Accept-Encoding
+access-control-allow-credentials: true
+cache-control: max-age=43200
+pragma: no-cache
+expires: -1
+x-content-type-options: nosniff
+etag: W/"aa1-7w0ImWAnFGRWG4ZRQUECVBaSqRo"
+content-encoding: gzip
+via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 22503
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tXjt6ntSDdW%2FEyiS5F%2BZqVTfQX5UQfv8XWGyUfnZyXeLIgMs7o%2FNTYleY5a40jpLIVhANpQyDRZXmPcoL%2B%2FNVnxXdJzOfzCtdCSQdNoRbzZ5og%2FLe27juHD%2BA1erczVzHQ8cvXSEC8u9PgtJ9Y0g"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 69a979be2b884001-CDG
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+
+[
+    {
+        "userId": 9,
+        "id": 81,
+        "title": "tempora rem veritatis voluptas quo dolores vero",
+        "body": "facere qui nesciunt est voluptatum voluptatem nisi\nsequi eligendi necessitatibus ea at rerum itaque\nharum non ratione velit laboriosam quis consequuntur\nex officiis minima doloremque voluptas ut aut"
+    },
+    {
+        "userId": 9,
+        "id": 82,
+        "title": "laudantium voluptate suscipit sunt enim enim",
+        "body": "ut libero sit aut totam inventore sunt\nporro sint qui sunt molestiae\nconsequatur cupiditate qui iste ducimus adipisci\ndolor enim assumenda soluta laboriosam amet iste delectus hic"
+    },
+    {
+        "userId": 9,
+        "id": 83,
+        "title": "odit et voluptates doloribus alias odio et",
+        "body": "est molestiae facilis quis tempora numquam nihil qui\nvoluptate sapiente consequatur est qui\nnecessitatibus autem aut ipsa aperiam modi dolore numquam\nreprehenderit eius rem quibusdam"
+    },
+    {
+        "userId": 9,
+        "id": 84,
+        "title": "optio ipsam molestias necessitatibus occaecati facilis veritatis dolores aut",
+        "body": "sint molestiae magni a et quos\neaque et quasi\nut rerum debitis similique veniam\nrecusandae dignissimos dolor incidunt consequatur odio"
+    },
+    {
+        "userId": 9,
+        "id": 85,
+        "title": "dolore veritatis porro provident adipisci blanditiis et sunt",
+        "body": "similique sed nisi voluptas iusto omnis\nmollitia et quo\nassumenda suscipit officia magnam sint sed tempora\nenim provident pariatur praesentium atque animi amet ratione"
+    },
+    {
+        "userId": 9,
+        "id": 86,
+        "title": "placeat quia et porro iste",
+        "body": "quasi excepturi consequatur iste autem temporibus sed molestiae beatae\net quaerat et esse ut\nvoluptatem occaecati et vel explicabo autem\nasperiores pariatur deserunt optio"
+    },
+    {
+        "userId": 9,
+        "id": 87,
+        "title": "nostrum quis quasi placeat",
+        "body": "eos et molestiae\nnesciunt ut a\ndolores perspiciatis repellendus repellat aliquid\nmagnam sint rem ipsum est"
+    },
+    {
+        "userId": 9,
+        "id": 88,
+        "title": "sapiente omnis fugit eos",
+        "body": "consequatur omnis est praesentium\nducimus non iste\nneque hic deserunt\nvoluptatibus veniam cum et rerum sed"
+    },
+    {
+        "userId": 9,
+        "id": 89,
+        "title": "sint soluta et vel magnam aut ut sed qui",
+        "body": "repellat aut aperiam totam temporibus autem et\narchitecto magnam ut\nconsequatur qui cupiditate rerum quia soluta dignissimos nihil iure\ntempore quas est"
+    },
+    {
+        "userId": 9,
+        "id": 90,
+        "title": "ad iusto omnis odit dolor voluptatibus",
+        "body": "minus omnis soluta quia\nqui sed adipisci voluptates illum ipsam voluptatem\neligendi officia ut in\neos soluta similique molestias praesentium blanditiis"
+    }
+]
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/comments?postId=81
+Proxy:			<none>
+Request params:	<none>
+Query params:	postId=81
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 07 Oct 2021 19:18:29 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1633632726
+vary: Origin, Accept-Encoding
+access-control-allow-credentials: true
+cache-control: max-age=43200
+pragma: no-cache
+expires: -1
+x-content-type-options: nosniff
+etag: W/"69c-knmY+AMmsNR8ocIWFLHcEv5PzuU"
+content-encoding: gzip
+via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 1637
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Vwrb%2FpSiV5Q2ZFs7IZeRHPkFIAN2MV46NoTBE7eaZ%2B62Px5HLqDT8Mo8ZOmnZ6%2FZq5h0s1myt2DUM5xbk4v%2F9kEdxu9RqCpfwvBsvRL9j1HzBGPvoDTzpKCIMcuSnoaIZeOpVqkiynlExeJnTk%2FO"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 69a979c0ffcc3b67-CDG
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+
+[
+    {
+        "postId": 81,
+        "id": 401,
+        "name": "cum voluptate sint voluptas veritatis",
+        "email": "Vella.Mayer@colten.net",
+        "body": "sit delectus recusandae qui\net cupiditate sed ipsum culpa et fugiat ab\nillo dignissimos quo est repellat dolorum neque\nvoluptates sed sapiente ab aut rerum enim sint voluptatum"
+    },
+    {
+        "postId": 81,
+        "id": 402,
+        "name": "ut eos mollitia eum eius",
+        "email": "Caleb_Dach@kathleen.us",
+        "body": "et nisi fugit totam\nmaiores voluptatibus quis ipsa sunt debitis assumenda\nullam non quasi numquam ut dolores modi recusandae\nut molestias magni est voluptas quibusdam corporis eius"
+    },
+    {
+        "postId": 81,
+        "id": 403,
+        "name": "architecto voluptatum eos blanditiis aliquam debitis beatae nesciunt dolorum",
+        "email": "Patience_Bahringer@dameon.biz",
+        "body": "et a et perspiciatis\nautem expedita maiores dignissimos labore minus molestiae enim\net ipsam ea et\nperspiciatis veritatis debitis maxime"
+    },
+    {
+        "postId": 81,
+        "id": 404,
+        "name": "officia qui ut explicabo eos fugit",
+        "email": "Destinee.Simonis@jose.tv",
+        "body": "modi est et eveniet facilis explicabo\nvoluptatem saepe quo et sint quas quia corporis\npariatur voluptatibus est iste fugiat delectus animi rerum\ndoloribus est enim"
+    },
+    {
+        "postId": 81,
+        "id": 405,
+        "name": "incidunt commodi voluptatem maiores asperiores blanditiis omnis ratione",
+        "email": "Keshaun@brown.biz",
+        "body": "aut aut sit cupiditate maxime praesentium occaecati cumque\nvero sint sit aliquam porro quo consequuntur ut\nnumquam qui maxime voluptas est consequatur ullam\ntenetur commodi qui consectetur distinctio eligendi atque"
+    }
+]
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/comments?postId=82
+Proxy:			<none>
+Request params:	<none>
+Query params:	postId=82
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 07 Oct 2021 19:18:29 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 998
+x-ratelimit-reset: 1633632726
+vary: Origin, Accept-Encoding
+access-control-allow-credentials: true
+cache-control: max-age=43200
+pragma: no-cache
+expires: -1
+x-content-type-options: nosniff
+etag: W/"69b-6RE4kXn3pbcXMBzi+aN2rVML2jI"
+content-encoding: gzip
+via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 1636
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=VzECgcXkku5jdpjNetpAyBESUFnZdyw27uMzRPfHgJaEo1kswmRbHYCIExYylAlc7sYXiQwbb62MW2U00TEXAs40cz%2BfbtwtCwK32zRph%2BzwEAtbfXx%2FYLT9LL%2BJZobZKhJmVhFuR5TqHWr4tLPx"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 69a979c27b45ee3b-CDG
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+
+[
+    {
+        "postId": 82,
+        "id": 406,
+        "name": "sint eaque rerum voluptas fugiat quia qui",
+        "email": "Merle.Schultz@marcel.org",
+        "body": "dicta in quam tenetur\nsed molestiae a sit est aut quia autem aut\nnam voluptatem reiciendis corporis voluptatem\nsapiente est id quia explicabo enim tempora asperiores"
+    },
+    {
+        "postId": 82,
+        "id": 407,
+        "name": "eius tempora sint reprehenderit",
+        "email": "Malvina_Fay@louie.name",
+        "body": "totam ad quia non vero dolor laudantium sed temporibus\nquia aperiam corrupti sint accusantium eligendi\naliquam rerum voluptatem delectus numquam nihil\nsoluta qui sequi nisi voluptatum eaque voluptas animi ipsam"
+    },
+    {
+        "postId": 82,
+        "id": 408,
+        "name": "non excepturi enim est sapiente numquam repudiandae illo",
+        "email": "Domenick_Douglas@gabe.us",
+        "body": "suscipit quidem fugiat consequatur\nquo sequi nesciunt\naliquam ratione possimus\nvoluptatem sit quia repellendus libero excepturi ut temporibus"
+    },
+    {
+        "postId": 82,
+        "id": 409,
+        "name": "dicta dolor voluptate vel praesentium",
+        "email": "Isaac@allene.net",
+        "body": "provident illo quis dolor distinctio laborum eius enim\nsuscipit quia error enim eos consequuntur\nest incidunt adipisci beatae tenetur excepturi in labore commodi\nfugiat omnis in et at nam accusamus et"
+    },
+    {
+        "postId": 82,
+        "id": 410,
+        "name": "et dolore hic a cupiditate beatae natus iusto soluta",
+        "email": "Marianna.Pacocha@george.net",
+        "body": "in consequatur corporis qui a et magni eum illum\ncorrupti veniam debitis ab iure harum\nenim ut assumenda cum adipisci veritatis et veniam\nrem eius expedita quos corrupti incidunt"
+    }
+]
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/comments?postId=83
+Proxy:			<none>
+Request params:	<none>
+Query params:	postId=83
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 07 Oct 2021 19:18:29 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 997
+x-ratelimit-reset: 1633632726
+vary: Origin, Accept-Encoding
+access-control-allow-credentials: true
+cache-control: max-age=43200
+pragma: no-cache
+expires: -1
+x-content-type-options: nosniff
+etag: W/"620-hNVysEtHeZZkYnUTy04D2NqMlxQ"
+content-encoding: gzip
+via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 1636
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=rxR1bKaFqyLXg6tDccdJuLt%2FhvgRGm79xtt%2BRJ54PVX1W8ccP%2FfgEhzolF%2B%2Fw6KAKwiqu%2FRW90gPhn8VKmqV%2BF3Uga0GSnrGOk1Pj7poM1Qf%2Fi2Lx5taV85G5vaExH0fgtYKpZ4rXheW8Ha1Y4dh"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 69a979c3dba640f3-CDG
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+
+[
+    {
+        "postId": 83,
+        "id": 411,
+        "name": "hic rem eligendi tenetur ipsum dolore maxime eum",
+        "email": "Sister_Barton@lela.com",
+        "body": "nam voluptatem ex aut voluptatem mollitia sit sapiente\nqui hic ut\nqui natus in iste et magnam dolores et fugit\nea sint ut minima quas eum nobis at reprehenderit"
+    },
+    {
+        "postId": 83,
+        "id": 412,
+        "name": "quaerat et quia accusamus provident earum cumque",
+        "email": "Autumn.Lebsack@kasandra.ca",
+        "body": "veniam non culpa aut voluptas rem eum officiis\nmollitia placeat eos cum\nconsequatur eos commodi dolorem\nanimi maiores qui"
+    },
+    {
+        "postId": 83,
+        "id": 413,
+        "name": "atque porro quo voluptas",
+        "email": "Irma.OKon@arden.me",
+        "body": "consequatur harum est omnis\nqui recusandae qui voluptatem et distinctio sint eaque\ndolores quo dolorem asperiores\naperiam non quis asperiores aut praesentium"
+    },
+    {
+        "postId": 83,
+        "id": 414,
+        "name": "ut qui voluptatem hic maxime",
+        "email": "Alaina_Hammes@carter.info",
+        "body": "molestias debitis magni illo sint officiis ut quia\nsed tenetur dolorem soluta\nvoluptatem fugiat voluptas molestiae magnam fuga\nsimilique enim illum voluptas aspernatur officia"
+    },
+    {
+        "postId": 83,
+        "id": 415,
+        "name": "rerum consequatur ut et voluptate harum amet accusantium est",
+        "email": "Alia@addison.org",
+        "body": "iure vitae accusamus tenetur autem ipsa deleniti\nsunt laudantium ut beatae repellendus non eos\nut consequuntur repudiandae ducimus enim\nreiciendis rem explicabo magni dolore"
+    }
+]
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/comments?postId=84
+Proxy:			<none>
+Request params:	<none>
+Query params:	postId=84
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 07 Oct 2021 19:18:29 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 996
+x-ratelimit-reset: 1633632726
+vary: Origin, Accept-Encoding
+access-control-allow-credentials: true
+cache-control: max-age=43200
+pragma: no-cache
+expires: -1
+x-content-type-options: nosniff
+etag: W/"6b4-pcvsjLdmrIxBAg8M6YyZvTGiC8U"
+content-encoding: gzip
+via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 1635
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=bSmYp0hbfIuCSq%2FWUw4djDa3lHkZyddBHQSWYT5g8oWmiv4euC3rH%2F%2Bb25VXbhMseLbRTSbNu5F0ixTA1j8QyAOp2p9f99swvMawuo%2F7THfA9tMHGl5wWK2THrRhjpyJ89k7ozOrnY%2FDQOOmBEY3"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 69a979c5599140f9-CDG
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+
+[
+    {
+        "postId": 84,
+        "id": 416,
+        "name": "neque nemo consequatur ea fugit aut esse suscipit dolore",
+        "email": "Aurelie_McKenzie@providenci.biz",
+        "body": "enim velit consequatur excepturi corporis voluptatem nostrum\nnesciunt alias perspiciatis corporis\nneque at eius porro sapiente ratione maiores natus\nfacere molestiae vel explicabo voluptas unde"
+    },
+    {
+        "postId": 84,
+        "id": 417,
+        "name": "quia reiciendis nobis minima quia et saepe",
+        "email": "May_Steuber@virgil.net",
+        "body": "et vitae consectetur ut voluptatem\net et eveniet sit\nincidunt tenetur voluptatem\nprovident occaecati exercitationem neque placeat"
+    },
+    {
+        "postId": 84,
+        "id": 418,
+        "name": "nesciunt voluptates amet sint et delectus et dolore culpa",
+        "email": "Tessie@emilie.co.uk",
+        "body": "animi est eveniet officiis qui\naperiam dolore occaecati enim aut reiciendis\nanimi ad sint labore blanditiis adipisci voluptatibus eius error\nomnis rerum facere architecto occaecati rerum"
+    },
+    {
+        "postId": 84,
+        "id": 419,
+        "name": "omnis voluptate dolorem similique totam",
+        "email": "Priscilla@colten.org",
+        "body": "cum neque recusandae occaecati aliquam reprehenderit ullam saepe veniam\nquasi ea provident tenetur architecto ad\ncupiditate molestiae mollitia molestias debitis eveniet doloremque voluptatem aut\ndolore consequatur nihil facere et"
+    },
+    {
+        "postId": 84,
+        "id": 420,
+        "name": "aut recusandae a sit voluptas explicabo nam et",
+        "email": "Aylin@abigale.me",
+        "body": "voluptas cum eum minima rem\ndolorem et nemo repellendus voluptatem sit\nrepudiandae nulla qui recusandae nobis\nblanditiis perspiciatis dolor ipsam reprehenderit odio"
+    }
+]
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/comments?postId=85
+Proxy:			<none>
+Request params:	<none>
+Query params:	postId=85
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 07 Oct 2021 19:18:30 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 995
+x-ratelimit-reset: 1633632726
+vary: Origin, Accept-Encoding
+access-control-allow-credentials: true
+cache-control: max-age=43200
+pragma: no-cache
+expires: -1
+x-content-type-options: nosniff
+etag: W/"5d0-LBTBwmP/I4SZqIr81Sl5cqIHLBM"
+content-encoding: gzip
+via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 1636
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=a4QReog0GFbqaqsjIbVZIjlheCXC5A5GHJjTxTaB3EVfTwiTF9dnxufrRWtf2ZxJ0zN5trM%2BsNYG2JoIMjhz0FF0wg8061n%2FS1OZoT%2FZ74c%2FCXw95JmQakPNSp83BlR3NVpWJfGixKFfmI2GL1pC"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 69a979c6ad0c40ed-CDG
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+
+[
+    {
+        "postId": 85,
+        "id": 421,
+        "name": "non eligendi ipsam provident",
+        "email": "Holden@kenny.io",
+        "body": "voluptate libero corrupti facere totam eaque consequatur nemo\nenim aliquid exercitationem nulla dignissimos illo\nest amet non iure\namet sed dolore non ipsam magni"
+    },
+    {
+        "postId": 85,
+        "id": 422,
+        "name": "sit molestiae corporis",
+        "email": "Guillermo_Dare@dorothea.tv",
+        "body": "ducimus ut ut fugiat nesciunt labore\ndeleniti non et aut voluptatum quidem consectetur\nincidunt voluptas accusantium\nquo fuga eaque quisquam et et sapiente aut"
+    },
+    {
+        "postId": 85,
+        "id": 423,
+        "name": "assumenda iure a",
+        "email": "Oscar@pearline.com",
+        "body": "rerum laborum voluptas ipsa enim praesentium\nquisquam aliquid perspiciatis eveniet id est est facilis\natque aut facere\nprovident reiciendis libero atque est"
+    },
+    {
+        "postId": 85,
+        "id": 424,
+        "name": "molestiae dolores itaque dicta earum eligendi dolores",
+        "email": "Jonathon_Feest@maxime.io",
+        "body": "ducimus hic ea velit\ndolorum soluta voluptas similique rerum\ndolorum sint maxime et vel\nvoluptatum nesciunt et id consequatur earum sed"
+    },
+    {
+        "postId": 85,
+        "id": 425,
+        "name": "cumque expedita consequatur qui",
+        "email": "Micah_Wolf@lennie.co.uk",
+        "body": "labore necessitatibus et eum quas id ut\ndoloribus aspernatur nostrum sapiente quo aut quia\neos rerum voluptatem\nnumquam minima soluta velit recusandae ut"
+    }
+]
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/comments?postId=86
+Proxy:			<none>
+Request params:	<none>
+Query params:	postId=86
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 07 Oct 2021 19:18:30 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 994
+x-ratelimit-reset: 1633632726
+vary: Origin, Accept-Encoding
+access-control-allow-credentials: true
+cache-control: max-age=43200
+pragma: no-cache
+expires: -1
+x-content-type-options: nosniff
+etag: W/"61e-KaIWkrkNFpUbVwXOrlJ24bSO1hE"
+content-encoding: gzip
+via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 1636
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xLZOGlPAVZXl1Cxhj0tNcEionun1rs8ErpxrmcoMtSjUW%2BETt1Ad%2F8iEv9VOBb5pCFWR0Ps2%2FjbldN8yyHJ8kTiDA9f2wIcFA2my4olJh5B8VhaiBEMJ5J62zJRQuv4d0%2BETrFnN4rcmaqVIzcJy"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 69a979c819c20818-CDG
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+
+[
+    {
+        "postId": 86,
+        "id": 426,
+        "name": "deleniti tempora non quia et aut",
+        "email": "Shany@daisha.biz",
+        "body": "reiciendis consequatur sunt atque quisquam ut sed iure\nconsequatur laboriosam dicta odio\nquas cumque iure blanditiis ad sed ullam dignissimos\nsunt et exercitationem saepe"
+    },
+    {
+        "postId": 86,
+        "id": 427,
+        "name": "delectus illum minus odit",
+        "email": "Drew_Lemke@alexis.net",
+        "body": "in laborum et distinctio nobis maxime\nmaxime id commodi eaque enim amet qui autem\ndebitis et porro eum dicta sapiente iusto nulla sunt\nvoluptate excepturi sint dolorem voluptatem quae explicabo id"
+    },
+    {
+        "postId": 86,
+        "id": 428,
+        "name": "voluptas dolores dolor nisi voluptatem ratione rerum",
+        "email": "Karina.Donnelly@liam.com",
+        "body": "excepturi quos omnis aliquam voluptatem iste\nsit unde ab quam ipsa delectus culpa rerum\ncum delectus impedit ut qui modi\nasperiores qui sapiente quia facilis in iure"
+    },
+    {
+        "postId": 86,
+        "id": 429,
+        "name": "sed omnis dolore aperiam",
+        "email": "Ahmed_Runolfsson@claire.name",
+        "body": "ab voluptatem nobis unde\ndoloribus aut fugiat\nconsequuntur laboriosam minima inventore sint quis\ndelectus hic et enim sit optio consequuntur"
+    },
+    {
+        "postId": 86,
+        "id": 430,
+        "name": "sint ullam alias et at et",
+        "email": "Marilou_Halvorson@kane.io",
+        "body": "debitis ut maiores ut harum sed voluptas\nquae amet eligendi quo quidem odit atque quisquam animi\nut autem est corporis et\nsed tempora facere corrupti magnam"
+    }
+]
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/comments?postId=87
+Proxy:			<none>
+Request params:	<none>
+Query params:	postId=87
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 07 Oct 2021 19:18:30 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 993
+x-ratelimit-reset: 1633632726
+vary: Origin, Accept-Encoding
+access-control-allow-credentials: true
+cache-control: max-age=43200
+pragma: no-cache
+expires: -1
+x-content-type-options: nosniff
+etag: W/"699-bQYcoT2wKdrFt8h6I4OeJqfxEd0"
+content-encoding: gzip
+via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 1635
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Er4pir46V0ndJ47Td3Dv3cJD%2BplpdvNtYXW1RrjIHe3Xpd6iM5y1xFJUd77V7foLtNcdCUXUMoAQSYLDXo8uBVGa0Sd54%2Fe4QtoZX8Ekst0rd%2BGrwZwPfToM8qe5DhsWmVJmiqF5R8zibcgUM4wP"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 69a979c98b803a69-CDG
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+
+[
+    {
+        "postId": 87,
+        "id": 431,
+        "name": "velit incidunt ut accusantium odit maiores quaerat",
+        "email": "Bernie.Schoen@seamus.co.uk",
+        "body": "voluptas minus fugiat vel\nest quos soluta et veniam quia incidunt unde ut\nlaborum odio in eligendi distinctio odit repellat\nnesciunt consequatur blanditiis cupiditate consequatur at et"
+    },
+    {
+        "postId": 87,
+        "id": 432,
+        "name": "quod quia nihil nisi perferendis laborum blanditiis tempora eos",
+        "email": "Joesph@darryl.net",
+        "body": "quam et et harum\nplaceat minus neque quae magni inventore saepe deleniti quisquam\nsuscipit dolorum error aliquid dolores\ndignissimos dolorem autem natus iste molestiae est id impedit"
+    },
+    {
+        "postId": 87,
+        "id": 433,
+        "name": "qui ea voluptatem reiciendis enim enim nisi aut",
+        "email": "Timmothy.Corwin@augustus.co.uk",
+        "body": "voluptatem minus asperiores quasi\nperspiciatis et aut blanditiis illo deserunt molestiae ab aperiam\nex minima sed omnis at\net repellat aut incidunt"
+    },
+    {
+        "postId": 87,
+        "id": 434,
+        "name": "doloremque eligendi quas voluptatem non quos ex",
+        "email": "Julien_OHara@vance.io",
+        "body": "ex eum at culpa quam aliquam\ncupiditate et id dolorem sint quasi et quos et\nomnis et qui minus est quisquam non qui rerum\nquas molestiae tempore veniam"
+    },
+    {
+        "postId": 87,
+        "id": 435,
+        "name": "id voluptatum nulla maiores ipsa eos",
+        "email": "Susan.Bartell@euna.org",
+        "body": "reprehenderit molestias sit nemo quas culpa dolorem exercitationem\neos est voluptatem dolores est fugiat dolorem\neos aut quia et amet et beatae harum vitae\nofficia quia animi dicta magnam accusantium"
+    }
+]
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/comments?postId=88
+Proxy:			<none>
+Request params:	<none>
+Query params:	postId=88
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 07 Oct 2021 19:18:30 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 992
+x-ratelimit-reset: 1633632726
+vary: Origin, Accept-Encoding
+access-control-allow-credentials: true
+cache-control: max-age=43200
+pragma: no-cache
+expires: -1
+x-content-type-options: nosniff
+etag: W/"6a2-oppJ2op67qbdPnVHmA1XUau7mFE"
+content-encoding: gzip
+via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 1635
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FN0Q5%2FdlaAPGXHu%2BuKoYD7llj73G8puRvdt5E6z2k56OkucgeHgxh17Jizs3iALLGQcvz6YwLQJzaZqtTq5DXRPsTCBwphchbjiFyqE0ny%2FxdpMRekw%2BZwrx2yzO6zEu2HmKRwMVEQHS1fQxdV3l"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 69a979cafb973a6f-CDG
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+
+[
+    {
+        "postId": 88,
+        "id": 436,
+        "name": "ea illo ab et maiores eaque non nobis",
+        "email": "Selena.Quigley@johan.co.uk",
+        "body": "sit non facilis commodi sapiente officiis aut facere libero\nsed voluptatum eligendi veniam velit explicabo\nsint laborum sunt reprehenderit dolore id nobis accusamus\nfugit voluptatem magni dolor qui dolores ipsa"
+    },
+    {
+        "postId": 88,
+        "id": 437,
+        "name": "magni asperiores in cupiditate",
+        "email": "Clifton_Boehm@jacynthe.io",
+        "body": "suscipit ab qui eos et commodi\nquas ad maiores repellat laboriosam voluptatem exercitationem\nquibusdam ullam ratione nulla\nquia iste error dolorem consequatur beatae temporibus fugit"
+    },
+    {
+        "postId": 88,
+        "id": 438,
+        "name": "ullam autem aliquam",
+        "email": "Lizzie_Bartell@diamond.net",
+        "body": "voluptas aspernatur eveniet\nquod id numquam dolores quia perspiciatis eum\net delectus quia occaecati adipisci nihil velit accusamus esse\nminus aspernatur repudiandae"
+    },
+    {
+        "postId": 88,
+        "id": 439,
+        "name": "voluptates quasi minus dolorem itaque nemo",
+        "email": "Yasmeen@golda.ca",
+        "body": "cupiditate laborum sit reprehenderit ratione est ad\ncorporis rem pariatur enim et omnis dicta\nnobis molestias quo corporis et nihil\nsed et impedit aut quisquam natus expedita voluptate at"
+    },
+    {
+        "postId": 88,
+        "id": 440,
+        "name": "adipisci sapiente libero beatae quas eveniet",
+        "email": "Adolf.Russel@clark.ca",
+        "body": "ut nam ut asperiores quis\nexercitationem aspernatur eligendi autem repellendus\nest repudiandae quisquam rerum ad explicabo suscipit deserunt eius\nalias aliquid eos pariatur rerum magnam provident iusto"
+    }
+]
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/comments?postId=89
+Proxy:			<none>
+Request params:	<none>
+Query params:	postId=89
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 07 Oct 2021 19:18:31 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 991
+x-ratelimit-reset: 1633632726
+vary: Origin, Accept-Encoding
+access-control-allow-credentials: true
+cache-control: max-age=43200
+pragma: no-cache
+expires: -1
+x-content-type-options: nosniff
+etag: W/"60c-wrJUV2/bf0vkVCbTHq9mEpHpMNs"
+content-encoding: gzip
+via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 1635
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Q58K3SMZ39rnSV9Yic4posqABT7K3MQ3KigCrXYiwmYTfPz7bBtdyyHBOmm3iqHFhjL7i9teY9iOHx%2FGc5KC18M07K0rTsxcw8CHSiM03Af7J8D0ypKb5GcO%2BqkWFuGRD6z3oY5FDW84FofOrKOv"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 69a979cc7baa32b2-CDG
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+
+[
+    {
+        "postId": 89,
+        "id": 441,
+        "name": "nisi qui voluptates recusandae voluptas assumenda et",
+        "email": "Elian@matilda.me",
+        "body": "illum qui quis optio\nquasi eius dolores et non numquam et\nqui necessitatibus itaque magnam mollitia earum et\nnisi voluptate eum accusamus ea"
+    },
+    {
+        "postId": 89,
+        "id": 442,
+        "name": "sed molestias sit voluptatibus sit aut alias sunt inventore",
+        "email": "Salma@francis.net",
+        "body": "velit ut incidunt accusantium\nsuscipit animi officia iusto\nnemo omnis sunt nobis repellendus corporis\nconsequatur distinctio dolorem"
+    },
+    {
+        "postId": 89,
+        "id": 443,
+        "name": "illum pariatur aliquam esse nisi voluptas quisquam ea",
+        "email": "Orlando_Dickinson@vern.org",
+        "body": "reiciendis et distinctio qui totam non aperiam voluptas\nveniam in dolorem pariatur itaque\nvoluptas adipisci velit\nqui voluptates voluptas ut ullam veritatis repudiandae"
+    },
+    {
+        "postId": 89,
+        "id": 444,
+        "name": "incidunt aut qui quis est sit corporis pariatur qui",
+        "email": "Elda@orval.name",
+        "body": "eligendi labore aut non modi vel facere qui\naccusamus qui maxime aperiam\ntotam et non ut repudiandae eum corrupti pariatur quia\nnecessitatibus et adipisci ipsa consequuntur enim et nihil vero"
+    },
+    {
+        "postId": 89,
+        "id": 445,
+        "name": "temporibus adipisci eveniet libero ullam",
+        "email": "Dennis@karley.net",
+        "body": "est consequuntur cumque\nquo dolorem at ut dolores\nconsequatur quia voluptates reiciendis\nvel rerum id et"
+    }
+]
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/comments?postId=90
+Proxy:			<none>
+Request params:	<none>
+Query params:	postId=90
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 07 Oct 2021 19:18:31 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 990
+x-ratelimit-reset: 1633632726
+vary: Origin, Accept-Encoding
+access-control-allow-credentials: true
+cache-control: max-age=43200
+pragma: no-cache
+expires: -1
+x-content-type-options: nosniff
+etag: W/"5b3-3ojnkVRQdueL3gLpOkCuHlvpaKw"
+content-encoding: gzip
+via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 1635
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=C0OZgoaAlamge%2FfvG6djbIgIlxoFJU0hcnvdSVtF%2BPGUVllQ46ZcjxsUVyPHEgpHjqbUHwkYnxAUIYwyuP2RWXe%2F%2FYvyggp2zTsl4FY4I1f%2FiNTyEqB1nOKQZqr8fU4y%2F4Dtj45JXh6LWIj5EWDp"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 69a979cdda003b9d-CDG
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+
+[
+    {
+        "postId": 90,
+        "id": 446,
+        "name": "dicta excepturi aut est dolor ab dolores rerum",
+        "email": "Jedediah@mason.io",
+        "body": "cum fugit earum vel et nulla et voluptatem\net ipsam aut\net nihil officia nemo eveniet accusamus\nnulla aut impedit veritatis praesentium"
+    },
+    {
+        "postId": 90,
+        "id": 447,
+        "name": "molestiae qui quod quo",
+        "email": "Maryam@jack.name",
+        "body": "rerum omnis voluptatem harum aliquid voluptas accusamus\neius dicta animi\nodio non quidem voluptas tenetur\nnostrum deserunt laudantium culpa dolorum"
+    },
+    {
+        "postId": 90,
+        "id": 448,
+        "name": "pariatur consequatur sit commodi aliquam",
+        "email": "Rick@carlos.tv",
+        "body": "odio maxime beatae ab labore rerum\nalias ipsa nam est nostrum\net debitis aut\nab molestias assumenda eaque repudiandae"
+    },
+    {
+        "postId": 90,
+        "id": 449,
+        "name": "sunt quia soluta quae sit deleniti dolor ullam veniam",
+        "email": "Vallie@jerrod.net",
+        "body": "dolor at accusantium eveniet\nin voluptatem quam et fugiat et quasi dolores\nsunt eligendi voluptatum id voluptas vitae\nquibusdam iure eum perspiciatis"
+    },
+    {
+        "postId": 90,
+        "id": 450,
+        "name": "dolorem corporis facilis et",
+        "email": "Adolph.Hayes@isobel.biz",
+        "body": "et provident quo necessitatibus harum excepturi\nsed est ut sed est doloremque labore quod\nquia optio explicabo adipisci magnam doloribus\nveritatis illo aut est inventore"
+    }
+]
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users?username=Nora
+Proxy:			<none>
+Request params:	<none>
+Query params:	username=Nora
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 07 Oct 2021 19:18:31 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1633627025
+vary: Origin, Accept-Encoding
+access-control-allow-credentials: true
+cache-control: max-age=43200
+pragma: no-cache
+expires: -1
+x-content-type-options: nosniff
+etag: W/"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w"
+via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 7315
+Accept-Ranges: bytes
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MOEYJUZ4ozWdlUSVhHGNCUCgA%2BcOp1lOc7gh0ONY6lyLafToRJlTR2fQS7fZ8o5K07t8%2FQS83%2B86fo2OwEmm2ubCJ9gRLjQjmZN3PhnEIV83ybjW5Mhm8Os6LDPr%2FG3oocen9bZIZQ2Pvx28ZTB%2F"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 69a979cf5b833a5d-CDG
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+
+[
+    
+]
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users?username=
+Proxy:			<none>
+Request params:	<none>
+Query params:	username=
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 07 Oct 2021 19:18:31 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1633627145
+vary: Origin, Accept-Encoding
+access-control-allow-credentials: true
+cache-control: max-age=43200
+pragma: no-cache
+expires: -1
+x-content-type-options: nosniff
+etag: W/"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w"
+via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 7225
+Accept-Ranges: bytes
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MAMadltZsX0BIdJkBbs9RGWRXEgwN53l6iUuJXZNivSwbyvPKuH8PXuyA38iO70%2FIXH%2FaUAbpZp0aUUJ4%2FaRYnPvkQkttmbZvi4KPjAYuwo2EyE7DxUb%2BkjRd556fKUFaRApltwreGrBW%2FZbjnqp"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 69a979d0b8b64007-CDG
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+
+[
+    
+]
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/comments?postId=98898
+Proxy:			<none>
+Request params:	<none>
+Query params:	postId=98898
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 07 Oct 2021 19:18:32 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1633633086
+vary: Origin, Accept-Encoding
+access-control-allow-credentials: true
+cache-control: max-age=43200
+pragma: no-cache
+expires: -1
+x-content-type-options: nosniff
+etag: W/"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w"
+via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 1242
+Accept-Ranges: bytes
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=cxTs0JkrP2P%2FZilv1ox94hkDtCmisq1NybV6WLxzeoUjtipYnwFL5ch%2Bs89LuUVl51QPltMFsDKt66ps918sy%2FSRUlrckSVv%2FAFcpr2uL%2BYpIUyLOJ%2BNPCL5XjzPC4fHvAIL2ha%2Bk8CkfZNYRGvK"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 69a979d22b964019-CDG
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+
+[
+    
+]
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/comments?postId=98898&postId=
+Proxy:			<none>
+Request params:	<none>
+Query params:	postId=[98898, ]
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 07 Oct 2021 19:18:32 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1633633446
+vary: Origin, Accept-Encoding
+access-control-allow-credentials: true
+cache-control: max-age=43200
+pragma: no-cache
+expires: -1
+x-content-type-options: nosniff
+etag: W/"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w"
+via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 883
+Accept-Ranges: bytes
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=OI9AWl1bKmPMwONvG89%2B6zopiPukks9iECWpZNborDTG3k69GqjhLURSBLhnumEapaeH9BwDYgw%2FPKhPsYqW920ouapVhcM2luiaKWF1EHdPsaEGxZei2N9Zccj2OOE11CXnoypeKe918eymqHzv"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 69a979d3dca439b7-CDG
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+
+[
+    
+]
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/comments?postId=98898&postId=&postId=83
+Proxy:			<none>
+Request params:	<none>
+Query params:	postId=[98898, , 83]
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 07 Oct 2021 19:18:32 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 998
+x-ratelimit-reset: 1633633446
+vary: Origin, Accept-Encoding
+access-control-allow-credentials: true
+cache-control: max-age=43200
+pragma: no-cache
+expires: -1
+x-content-type-options: nosniff
+etag: W/"620-hNVysEtHeZZkYnUTy04D2NqMlxQ"
+content-encoding: gzip
+via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 883
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wO6yjW%2F6BhVitW%2F%2FeJ1us%2FhTxKz9hH%2Bt45FAgJL2XMUO5idS5uXutf7lzyqxjY3BTXq3ogBXkgkhhW4f%2BXe6NJ4JioL80PjeRRXFLxR7YzuqjYAd1zl7F4d%2B2stjVtKBQXSP4nEL6rcmK%2FZJfeMY"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 69a979d52b823ae3-CDG
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+
+[
+    {
+        "postId": 83,
+        "id": 411,
+        "name": "hic rem eligendi tenetur ipsum dolore maxime eum",
+        "email": "Sister_Barton@lela.com",
+        "body": "nam voluptatem ex aut voluptatem mollitia sit sapiente\nqui hic ut\nqui natus in iste et magnam dolores et fugit\nea sint ut minima quas eum nobis at reprehenderit"
+    },
+    {
+        "postId": 83,
+        "id": 412,
+        "name": "quaerat et quia accusamus provident earum cumque",
+        "email": "Autumn.Lebsack@kasandra.ca",
+        "body": "veniam non culpa aut voluptas rem eum officiis\nmollitia placeat eos cum\nconsequatur eos commodi dolorem\nanimi maiores qui"
+    },
+    {
+        "postId": 83,
+        "id": 413,
+        "name": "atque porro quo voluptas",
+        "email": "Irma.OKon@arden.me",
+        "body": "consequatur harum est omnis\nqui recusandae qui voluptatem et distinctio sint eaque\ndolores quo dolorem asperiores\naperiam non quis asperiores aut praesentium"
+    },
+    {
+        "postId": 83,
+        "id": 414,
+        "name": "ut qui voluptatem hic maxime",
+        "email": "Alaina_Hammes@carter.info",
+        "body": "molestias debitis magni illo sint officiis ut quia\nsed tenetur dolorem soluta\nvoluptatem fugiat voluptas molestiae magnam fuga\nsimilique enim illum voluptas aspernatur officia"
+    },
+    {
+        "postId": 83,
+        "id": 415,
+        "name": "rerum consequatur ut et voluptate harum amet accusantium est",
+        "email": "Alia@addison.org",
+        "body": "iure vitae accusamus tenetur autem ipsa deleniti\nsunt laudantium ut beatae repellendus non eos\nut consequuntur repudiandae ducimus enim\nreiciendis rem explicabo magni dolore"
+    }
+]
