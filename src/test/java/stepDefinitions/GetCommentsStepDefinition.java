@@ -23,7 +23,7 @@ public class GetCommentsStepDefinition extends Utils {
     Response commentsResponse;
     Posts[] posts;
     Comments[] comments;
-    Response emptyComments;
+    Response emptyResource;
 
     @Given("user search for {string} to get his id using getUsersAPI")
     public void userSearchForToGetHisIdUsingGetUsersAPI(String username) throws IOException {
@@ -63,22 +63,23 @@ public class GetCommentsStepDefinition extends Utils {
         }
     }
 
-    @Given("user search for comments with invalid {string}")
-    public void userSearchForCommentsWithInvalid(String postId) throws IOException {
+    @Given("user search with invalid {string} {string}")
+    public void userSearchWithInvalid(String key,String value) throws IOException {
         requestSpecification = given().log().all()
                 .spec(requestSpecification())
-                .queryParam("postId", postId);
+                .queryParam(key, value);
 
     }
 
-    @When("user hit get http request")
-    public void userHitGetHttpRequest() {
-        emptyComments = requestSpecification.when()
-                .get(APIResources.getCommentsAPI.getResource());
+    @When("user hit {string} get http request")
+    public void userHitGetHttpRequest(String resource) {
+        APIResources endPoint= APIResources.valueOf(resource);
+        emptyResource = requestSpecification.when()
+                .get(endPoint.getResource());
     }
 
     @Then("response will be empty")
     public void responseWillBeEmpty() {
-        emptyComments.then().body("", Matchers.hasSize(0));
+        emptyResource.then().body("", Matchers.hasSize(0));
     }
 }
