@@ -20,8 +20,6 @@ Feature: Validate Comments
       | postId |
       | 98898  |
       |        |
-      | 83     |
-
 
 
 
