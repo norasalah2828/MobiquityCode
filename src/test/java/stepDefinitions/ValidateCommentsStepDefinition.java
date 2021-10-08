@@ -16,7 +16,7 @@ import java.io.IOException;
 import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.requestSpecification;
 
-public class GetCommentsStepDefinition extends Utils {
+public class ValidateCommentsStepDefinition extends Utils {
     String userID;
     Response userResponse;
     Response postsResponse;
